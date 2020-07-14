@@ -9,7 +9,15 @@ presence.on("UpdateData", async () => {
     if (document.location.hostname == "forum.cfx.re") {
         if (document.location.pathname == "/") {
             presenceData.startTimestamp = browsingStamp;
-            presenceData.details = "Etusivulla";
+            presenceData.details = "Page: Categories";
+        }
+        else if (presenceData.details = document.querySelector(".title-wrapper")) {
+            presenceData.startTimestamp = browsingStamp;
+            presenceData.details = `Page: ${document.querySelector(".category-name").textContent}`;
+            presenceData.state = `Topic: ${document.querySelector(".fancy-title").textContent}`;
+        } else {
+            presenceData.details = `Page: ${document.querySelector(".category-name").textContent}`;
+            presenceData.startTimestamp = browsingStamp;
         }
     }
     if (presenceData.details == null) {
