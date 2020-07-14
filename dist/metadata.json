@@ -1,0 +1,23 @@
+{
+    "author": {
+        "name": "ACertainCoder",
+        "id": "320507572455079949"
+    },
+    "service": "FiveM",
+    "description": {
+        "fi": "FiveM"
+    },
+    "url": [
+        "forum.cfx.re"
+    ],
+    "version": "1.0.0",
+    "logo": "https://forum.fivem.net/uploads/default/original/4X/7/5/e/75ef9fcabc1abea8fce0ebd0236a4132710fcb2e.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/41/FiveM_Logo.jpg",
+    "color": "#FF8537",
+    "tags": [
+        "game",
+        "rp",
+        "fivem"
+    ],
+    "category": "games"
+}
